@@ -47,7 +47,47 @@ O projeto foi desenvolvido utilizando apenas tecnologias **front-end**:
 
 O projeto está disponível publicamente no GitHub:
 
-🔗  
+🔗 https://github.com/Pipo1506/Sprint4.git
 
 
 ---
+
+## 🔗 Video demonstrativo no Youtube
+
+🔗 https://youtu.be/_wIQFq-Q0gQ
+
+---
+
+## 📁 Estrutura de Pastas do Projeto
+├── public/
+│   ├── Imagens/
+│   │   ├── loogo.png
+│   │   ├── Medico.png
+│   │   ├── Henrique.png
+│   │   └── Phillipo.jpeg
+│   └── (outros ícones e assets)
+│
+├── src/
+│   ├── Components/
+│   │   ├── Header/
+│   │   │   └── Header.tsx
+│   │   ├── NavBar/
+│   │   │   └── Navbar.tsx
+│   │   └── Footer/
+│   │       └── Footer.tsx
+│   │
+│   ├── Pages/
+│   │   ├── HomePage.tsx
+│   │   ├── IntegrantesPage.tsx
+│   │   ├── FaqPage.tsx
+│   │   ├── ContatoPage.tsx
+│   │   └── CadastroPage.tsx
+│   │
+│   ├── App.tsx         # Componente principal com as rotas
+│   ├── main.tsx        # Ponto de entrada do React
+│   └── index.css       # Arquivo de CSS com o Tailwind
+│
+├── .gitignore
+├── package.json        # Dependências do projeto
+├── README.md           # O arquivo que estamos criando
+└── vite.config.ts      # Configuração do Vite
